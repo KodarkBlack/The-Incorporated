@@ -54,6 +54,9 @@
         opacity:1;
     }
 }
+.Olufisayo {
+    -webkit-text-fill-color: #F9A826;
+}
 
 .About-me p {
     animation: text-flicker-out-glow 1s linear 0s 1 normal none;
