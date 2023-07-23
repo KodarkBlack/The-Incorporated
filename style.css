@@ -191,6 +191,30 @@
     margin: 5%;
 }
 
+.the-modal {
+    /* position: fixed; */
+    height: 100px;
+    width: auto;
+    margin: 5%;
+    border: none;
+    border-radius: 10px;
+    background-color: #F9A826;
+    display: flex;
+    overflow-x: scroll;
+    
+    padding: 1%;
+    justify-content: center;
+}
+
+.the-modal-container h3 {
+    text-align: center;
+    margin-bottom: -2%;
+}
+
+.the-modal h3 {
+    text-align: center;
+}
+
 /* Footer */
 
 .the-footer {
