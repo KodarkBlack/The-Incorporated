@@ -18,9 +18,9 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="show-modal" class="nav-link" href="#">Contact</a>
+            <a class="nav-link" id="openModalBtn" href="#">Contact</a>
             <a class="nav-link" href="#">Project</a>
-            <a class="nav-link" href="#">CV</a>
+            <a class="nav-link show-modal" href="#">Resume</a>
             <a class="nav-link">Request Demo</a>
           </div>
         </div>
@@ -53,9 +53,8 @@
     </div>
 
     <section>
-        <span class="overlay"></span>
+        <span class="overlay" id="overlay"></span>
         <div class="modal-box">
-          <i class="fa-regular fa-circle-check"></i>
           <h1>Resume</h1>
           <h3>More about my skills</h3>
 
@@ -76,10 +75,32 @@
             <h1>EDUCATION</h1>
             <p>ACADEMIC CAREER</p>
             <hr />
+            <p><strong>Bachelor of Science in Mechanical Engineering (BSC)</strong></p>
+            <p>ODUDUWA UNIVERSITY ILE IFE <span>OUI</span></p>
+            <br /><em>(August 2019 – June 2023)
           </div>
           <button class="close-btn">Ok, Close</button>
         </div>
-      </section>
+    </section>
+
+   <!-- Button to trigger the modal -->
+
+<!-- Modal -->
+    <div id="myModal" class="modal">
+        <span class="overlay" id="overlays"></span>
+        <div class="modal-content">
+            <span class="close" id="closeModal">&times;</span>
+            <h2>Contact</h2>
+            <ul>
+                <li>Email</li>
+                <li>Github</li>
+                <li>Linkedin</li>
+            </ul>
+        </div>
+    </div>
+
+
+    
 
     <!-- FOOTER -->
 
