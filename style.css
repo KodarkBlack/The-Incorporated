@@ -1,3 +1,6 @@
+
+/* svg styling ends here */
+
 .logo-svg {
     height: 40px;
 }
@@ -187,3 +190,20 @@
 .discovery {
     margin: 5%;
 }
+
+/* Footer */
+
+.the-footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #F9A826;
+    padding: 5%;
+}
+
+@media screen and (max-width: 580px) {
+    .the-footer {
+        display: block;
+    }
+    
+}
+
