@@ -14,7 +14,7 @@ const section = document.querySelector("section"),
 
 // Function to open the modal
 function openModal() {
-  var modal = document.getElementById("myModal");
+  const modal = document.getElementById("myModal");
   modal.style.display = "block";
 }
 
