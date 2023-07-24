@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light navbarpart">
+    <nav class="navbar navbar-expand-lg navbar-light navbarpart fixed">
         <img src="/assets/undraw_pic_profile_re_7g2h.svg" class="logo-svg" alt="">
         <a class="navbar-brand" href="#">The Incorporated</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,7 +19,7 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
             <a class="nav-link" id="openModalBtn" href="#">Contact</a>
-            <a class="nav-link" href="#">Project</a>
+            <a class="nav-link" href="/project.html">Project</a>
             <a class="nav-link show-modal" href="#">Resume</a>
             <a class="nav-link">Request Demo</a>
           </div>
@@ -87,14 +87,14 @@
 
 <!-- Modal -->
     <div id="myModal" class="modal">
-        <span class="overlay" id="overlays"></span>
+        <span class="overlay-second" id="overlays"></span>
         <div class="modal-content">
-            <span class="close" id="closeModal">&times;</span>
             <h2>Contact</h2>
             <ul class="Contact-details">
-                <a href="mailto:Ibukunolufisayo8888@gmail.com">Send Email</a>
-                <a href="https://github.com/KodarkBlack">Github</a>
+                <button href="mailto:Ibukunolufisayo8888@gmail.com">Send Email</button>
+                <button href="https://github.com/KodarkBlack">Github</button>
             </ul>
+            <span class="close" id="closeModal">&times;</span>
         </div>
     </div>
 

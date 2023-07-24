@@ -117,13 +117,17 @@ section.active .modal-box {
     transform: translate(-50%, -50%) scale(1.2);
 
 }
-  
+   
 .close {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    font-size: 20px;
+    /* position: absolute; */
+    justify-self: left;
     cursor: pointer;
+    border-radius: 20px;
+    background-color: #265df2;
+    height: 20%;
+    width: 10%;
+    align-items: center;
+    padding: 2%;
 }
   
 .overlay {
@@ -134,8 +138,24 @@ section.active .modal-box {
     height: 100%;
 }
 
-.Contact.details {
-    display: block;
+.overlay-second {
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.Contact-details {
+    display: block!important;
+    justify-content: space-between;
+    gap: 5%;
+}
+
+.Contact-details li {
+    cursor: pointer;
+    list-style: none;
 }
   
 /* CONTACT MODAL ENDS HERE*/
@@ -154,7 +174,8 @@ section.active .modal-box {
 .my-intro {
     display: flex;
     justify-content: center;
-    margin: 5%;
+    padding: 5%;
+    background-color: antiquewhite;
 }
 .my-intro img {
     animation: rotate-vert-right 1s linear 0s 1 normal none;
@@ -330,36 +351,12 @@ section.active .modal-box {
 }
 
 .discovery {
-    margin: 5%;
-}
-/* .modal {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: aqua;
+    padding: 5%;
+    background-color: antiquewhite;
 }
 
-.modal-content {
-    background-color: black;
-    padding: 20px;
-    border-radius: 5px;
-    width: 300px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.close {
-    float: right;
-    cursor: pointer;
-} */
 
 .the-modal {
-    /* position: fixed; */
     height: 100px;
     width: 90%;
     margin: 5%;
@@ -368,9 +365,18 @@ section.active .modal-box {
     background-color: #F9A826;
     display: flex;
     overflow-x: scroll;
-
     padding: 1%;
-    justify-content: center;
+    justify-content: space-between;
+}
+
+.the-modal img {
+    width: auto;
+    height: auto;
+}
+
+.the-modal-container {
+    background-color: antiquewhite;
+    padding: 5%;
 }
 
 .the-modal-container h3 {
@@ -395,6 +401,40 @@ section.active .modal-box {
     .the-footer {
         display: block;
     }
+    
+}
+
+
+
+/* projects */
+.show-projects {
+    width: screen;
+    height: inherit;
+    background-color: antiquewhite;
+}
+
+.projects-box {
+    width: 30%;
+    height: 200px;
+    background-color: #e3f2fd;
+    flex: 1 0 200px;
+}
+
+.the-modal-project {
+    height: inherit;
+    width: 90%;
+    margin: 5%;
+    border: none;
+    border-radius: 10px;
+    background-color: #F9A826;
+    display: flex;
+    padding: 1%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+@media screen and (max-width: 580px) {
     
 }
 

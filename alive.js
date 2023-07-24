@@ -20,7 +20,7 @@ function openModal() {
 
 // Function to close the modal
 function closeModal() {
-  var modal = document.getElementById("myModal");
+  const modal = document.getElementById("myModal");
   modal.style.display = "none";
 }
 
