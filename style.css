@@ -428,13 +428,30 @@ section.active .modal-box {
     width: screen;
     height: inherit;
     background-color: antiquewhite;
+    display: block;
 }
 
 .projects-box {
-    width: 30%;
-    height: 200px;
+    width: inherit;
+    height: inherit;
     background-color: #e3f2fd;
     flex: 1 0 200px;
+}
+
+.projects-box img {
+    width: 100%;
+}
+
+.Project-btn {
+    border: none;
+    background-color: #050d23;
+    padding: 1%;
+    width: 100%;
+}
+
+.Project-btn a {
+    font-size: 20px;
+    color: white;
 }
 
 .the-modal-project {
