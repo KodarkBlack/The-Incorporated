@@ -1,5 +1,5 @@
 const section = document.querySelector("section"),
-    overlay = document.querySelector(".overlay"),
+    // overlay = document.querySelector(".overlay"),
     showBtn = document.querySelector(".show-modal"),
     closeBtn = document.querySelector(".close-btn");
     showBtn.addEventListener("click", () => section.classList.add("active"));
@@ -29,4 +29,4 @@ document.getElementById("openModalBtn").addEventListener("click", openModal);
 
 // Event listener to close the modal when the close button or overlay is clicked
 document.getElementById("closeModal").addEventListener("click", closeModal);
-document.getElementById("overlays").addEventListener("click", closeModal);
+// document.getElementById("overlays").addEventListener("click", closeModal);
